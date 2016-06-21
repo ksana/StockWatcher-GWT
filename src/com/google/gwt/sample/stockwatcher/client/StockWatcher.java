@@ -47,6 +47,7 @@ public class StockWatcher implements EntryPoint {
         // Add styles to elements in the stock list table.
         stocksFlexTable.getRowFormatter().addStyleName(0, "watchListHeader");
         stocksFlexTable.addStyleName("watchList");
+        stocksFlexTable.setCellPadding(6);
 
         stocksFlexTable.getCellFormatter().addStyleName(0, 1, "watchListNumericColumn");
         stocksFlexTable.getCellFormatter().addStyleName(0, 2, "watchListNumericColumn");
